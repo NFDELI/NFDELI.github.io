@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	/*background-color: Purple;*/
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -53,12 +54,12 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	/*Not the very background*/
 }
 
 mark {
-	background-color: blue;
-	/*background-color: transparent;*/
-	/*color: inherit;*/
+	background-color: transparent;
+	color: inherit;
 }
 
 input::-moz-focus-inner {
@@ -101,7 +102,8 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		/*General Text Color*/
+		color: pink;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -228,10 +230,14 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
+		/*BLUE BACKGROUND ON CONTAINER*/
+		background-color: blue;
 	}
 
 		.container.medium {
 			width: 900px;
+			/*RED BACKGROUND ON CONTAINER*/
+			background-color: red;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -290,6 +296,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		/*YELLOW BACKGROUND COLOR ON ROWS*/
+		background-color: yellow;
 	}
 
 		.row > * {
@@ -1996,22 +2004,29 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			/*The most background of Name and picture*/
+			/*background-color: #fff or white*/
+			background-color: orange;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			/*background-color: #fafafa;*/
+			background-color: brown;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			/*background-color: #f4f4f4;*/
+			background-color: green;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
+			/*background-color: #303030;*/
+			background-color: cyan;
+			/*Changes the color under Have me make ur stuff..*/
+			color: lime;
+			/*color: #999;*/
 			text-shadow: -1px -1px 0px #181818;
 		}
 
