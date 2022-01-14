@@ -35,7 +35,7 @@
 								<h1 style = "color:#fff;">Hi. I'm <strong style = "color:#fff;">Nicholas Frederick Deli</strong>.</h1>
 							</header>
 							<p>Welcome to my portfolio page, this is my portfolio page.</p>
-							<p>Twitter: <a href="https://twitter.com/Deli_Nicholas" target = "_blank">Deli_Nicholas</a> YouTube: <a href="https://www.youtube.com/channel/UCVvUZkw6k7yXcAX0j0VMhug" target = "_blank">DKNX</a></p>
+							<p>Twitter: <a href="https://twitter.com/Deli_Nicholas" target = "_blank">Deli_Nicholas</a> YouTube: <a href="https://www.youtube.com/channel/UCVvUZkw6k7yXcAX0j0VMhug target = "_blank"">DKNX</a></p>
 							<p>GitHub: <a href="https://github.com/NFD465" target = "_blank">NFD465</a> </p>
 							<a href="#work" class="button large scrolly">Learn about what I do</a>
 						</div>
