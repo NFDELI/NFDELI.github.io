@@ -2041,7 +2041,7 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				background: #fff;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
@@ -2461,3 +2461,12 @@ input, select, textarea {
 					}
 
 	}
+	
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
